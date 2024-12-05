@@ -1,9 +1,15 @@
 import React from 'react'
 
-// 🐶 Reprends tous le contenu HTML de App contenant le footer
-// 🤖  <footer className="attribution">
 function Footer() {
-  return <div></div>
+  return (
+    <footer className="attribution">
+      Formation TypeScript
+      <a href="https://www.mikecodeur.com" target="_blank" rel="noreferrer">
+        Mike Codeur
+      </a>
+      .
+    </footer>
+  )
 }
 
 export {Footer}
